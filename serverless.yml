@@ -65,6 +65,9 @@ functions:
           path: feed.xml
           method: any
           cors: true
+    environment:
+      AIRTABLE_BASE_ID: app6G9BQc9jIjI4Cy
+      AIRTABLE_API_KEY: PF88mwG6hRiiMN83M
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
@@ -100,10 +103,6 @@ functions:
 #          conditions:
 #            host: example.com
 #            path: /hello
-
-#    Define function environment variables here
-#    environment:
-#      variable2: value2
 
 # you can add CloudFormation resource templates here
 #resources:
