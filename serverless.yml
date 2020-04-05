@@ -65,6 +65,7 @@ functions:
           path: feed.xml
           method: any
           cors: true
+# Example Environment Variables
     environment:
       AIRTABLE_BASE_ID: app6G9BQc9jIjI4Cy
       AIRTABLE_API_KEY: PF88mwG6hRiiMN83M

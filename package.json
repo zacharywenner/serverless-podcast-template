@@ -1,0 +1,17 @@
+{
+  "name": "serverless-podcast-template",
+  "version": "1.0.0",
+  "description": "A Serverless Podcast Feed Generator",
+  "main": "handler.js",
+  "keywords": [
+    "Airtable",
+    "Serverless",
+    "AWS"
+  ],
+  "author": "Zachary Wenner",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.7.2",
+    "serverless": "^1.67.0"
+  }
+}
